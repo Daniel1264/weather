@@ -3,7 +3,7 @@ import React  from 'react'
 import { useState, useEffect } from 'react'
 import Weather from './components/Weather'
 import './App.css'
-
+import Loader from './components/Loader'
 
 const App = () => {
 
@@ -61,11 +61,19 @@ const App = () => {
 
   
   return (
-    <div className='App'>
-      <Weather 
+    <div className='App'>      
+
+    {
+      weather ? 
+        <Weather 
         Weather = {weather}
         Temperature = {temperature}
       />
+
+      :
+      <Loader/>
+    }
+
     </div>
   )
 }
