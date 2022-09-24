@@ -19,9 +19,7 @@ h3, h1, h4 {
 .loader {
   font-size: 7rem;
 }
-.bx {
-  font-size: 20px;
-}
+
 .App {
   background-image: url(./imagenes/anime.jpg);
   background-size: cover;
