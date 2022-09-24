@@ -31,7 +31,7 @@ h3, h1, h4 {
 }
 .card {
   max-width: max-content;
-  background-color: #94b3fda2;
+  background-color: #cdf0eaa4;
   border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -75,7 +75,7 @@ h3, h1, h4 {
 .card_btn {
   background-color: var(--color1);
   margin-top: 15px;
-  padding: 7px;
+  padding: 10px;
   border: none;
   color: white;
 }

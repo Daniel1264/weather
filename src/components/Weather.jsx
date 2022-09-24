@@ -35,7 +35,7 @@ const Weather = ({Weather, Temperature}) => {
     {/* TEMPERATURE (CELSIUS AND FARENHEIT) */}
     <section className='card_temperature'>
       <h2>{isCelsius ? `${Temperature?.celsius} C°` : `${Temperature.farenheit} F°`}</h2>
-      <button onClick={changeTemperature} className='card_btn'>{isCelsius ? "Change to farenheit" : "Change a celsius"}</button>
+      <button onClick={changeTemperature} className='card_btn'>{isCelsius ? "Change to farenheit" : "Change to celsius"}</button>
     </section>
     </div>
   )
