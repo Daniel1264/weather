@@ -20,13 +20,14 @@ h3, h1, h4 {
   font-size: 7rem;
 }
 .App {
-  background-image: url(./imagenes/sky.jpg);
+  background-image: url(./imagenes/anime.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .card {
   max-width: max-content;
