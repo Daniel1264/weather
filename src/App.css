@@ -80,6 +80,7 @@ h3, h1, h4 {
   padding: 10px;
   border: none;
   color: white;
+  cursor: pointer;
 }
 
 .icon-loader {
