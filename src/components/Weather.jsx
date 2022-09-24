@@ -14,6 +14,7 @@ const Weather = ({Weather, Temperature}) => {
 
   return (
     <div className='card'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
     {/* TITLE AND CITY */}
     <section className='card_title'>
     <h1>Weather App</h1>
@@ -27,9 +28,9 @@ const Weather = ({Weather, Temperature}) => {
     <section className='card_information'>
     <h3>"{Weather?.weather[0].description}"</h3>
     <ul>
-      <li><span>Wind speed</span> {Weather?.wind.speed} m/s</li>
-      <li><span>Clouds</span>  {Weather?.clouds.all} %</li>
-      <li><span>Pressure</span> {Weather?.main.pressure} hpa</li>
+      <li><i class='bx bx-speaker' ></i><span>Wind speed</span> {Weather?.wind.speed} m/s</li>
+      <li><i class='bx bx-cloud' ></i><span>Clouds</span>  {Weather?.clouds.all} %</li>
+      <li><i class='bx bx-wind'></i><span>Pressure</span> {Weather?.main.pressure} hpa</li>
     </ul>
     </section>
     {/* TEMPERATURE (CELSIUS AND FARENHEIT) */}
